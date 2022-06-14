@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+#footer_top{
+	display:flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.inner_footer{
+	display:flex;
+	justify-content: center;
+	flex:1;
+	margin-top: 50px;
+}
+
+.company{
+	display:flex;
+	flex-direction:column;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+.cc_view{
+	display:flex;
+	flex:1;
+	margin-top: 100px;
+}
+
+.cc_qna{
+	display:flex;
+	flex:1;
+}
+
+.title_cc{
+	float: left;
+	clear: both;
+}
+
+
+#cc_qna_button{
+	width: 150px;
+	height: 50px;
+}
+
+.tit{
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+
+
+.list{
+	display:flex;
+	flex-direction:column;
+	list-style: none; 
+}
+
+.list_company{
+	display:flex;
+	justify-content: space-evenly;
+	list-style: none; 
+	text-decoration: none;
+	margin-left: 110px;
+}
+
+.list_company li > a{
+	text-decoration: none;
+	margin: 10px;
+	color: black;
+	font-size: 15px;
+	font-family: bold;
+}
+
+
+.icon_bottom{
+	display:flex;
+	justify-content: flex-start;
+	list-style: none; 
+	margin-left: -300px;
+}
+
+.icon_bottom li{
+	margin-left: 50px;
+}
+
+.company_text{
+	margin: 40px 100px 50px 50px; 
+	font-size: 13px;
+	color: gray;
+}
+
+.cc_view > dl{
+	margin-left: 70px;
+}
+
+.cc_qna > dl{
+	margin-left: 50px;
+}
+
+.footer_bottom{
+	text-align: center;
+	margin-top: 80px;
+	padding: 60px 0px;
+	background-color: lightgray;
+}
+
+.footer_bottom p,em{
+	color:gray;
+	font-size: 10px;
+}

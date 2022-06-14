@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import url("notice_default.css");
+
+.inquiry_section label {
+	font-family: 'Do Hyeon', sans-serif;
+	margin-bottom: 10px;
+}
+
+.inquiry_section div {
+	margin-bottom: 20px;
+}
+
+.inquiry_submit {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+
+.inquiry_submit .btn{
+	width: 160px;
+	height: 55px;
+}
+
+.img_text {
+	font-size: 13px;
+	color: rgb(153, 153, 153);
+	line-height: 16px;
+}
+
+input[type=file] {
+	display: none;
+}

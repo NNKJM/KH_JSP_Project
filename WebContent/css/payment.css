@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+.payment {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding: 30px;
+	width: 800px;
+}
+
+.title-hr {
+	margin-bottom: 0;
+}
+
+.payment h1 {
+	text-align: center;
+}
+
+.payment h4 {
+	margin-top: 70px;
+}
+
+.order-table {
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.table-img {
+	width: 100px;
+}
+
+.img-size {
+	width: 100px;
+	height: 100px;
+}
+
+.table-pname {
+	width: 200px;
+	padding-left: 20px;
+	text-align: left;
+}
+
+.order-table td {
+	border-bottom: 1px solid lightgray;
+	padding: 10px 0;
+}
+
+.info table th {
+	width: 100px;
+}
+
+.info table th,
+.info table td {
+	padding: 10px 0;
+	vertical-align: top;
+}
+
+.info table td span {
+	font-size: 8px;
+	color: #808080;
+}
+
+.delivery table th {
+	width: 150px;
+}
+
+.delivery table th,
+.delivery table td {
+	padding: 10px 0;
+	vertical-align: top;
+}
+
+.payment table th {
+	width: 150px;
+}
+
+.payment table th,
+.payment table td {
+	padding: 10px 0;
+}
+
+.bill table th {
+	width: 150px;
+}
+
+.bill table th,
+.bill table td {
+	padding: 10px 0;
+}
+
+.pay-button {
+	margin: 20px auto 0;
+	width: 300px;
+	height: 50px;
+}
+
+.pay-button button {
+	width: 300px;
+	height: 50px;
+	border: none;
+	border-radius: 6px;
+	color: #fff;
+	background-color: purple;
+}
+
+
+
+
+
+
+
+
+
+

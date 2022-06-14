@@ -1,0 +1,91 @@
+@charset "UTF-8";
+    #login_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 50px auto;
+    }
+    #login_title{
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .user_input{
+        width: 340px;
+        height: 54px;
+        padding: 0 19px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        background-color: #fff;
+        font-size: 14px;
+        border-radius: 3px;
+        background: #fff;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    input::placeholder {
+        color: lightgray;
+    }
+
+    tr:nth-of-type(3){
+        height: 40px;
+        line-height: -6px;
+    }
+
+    #flexCheckChecked{
+        background-color: purple;
+        top: 3px;
+    }
+    .form-check-label{
+        font-size: 13px;
+        line-height: 20px;
+        color: #333;
+        font-weight: bold;
+    }
+
+    #search{
+        font-size: 12px;
+        font-family: noto sans;
+        text-align: right;
+        font-weight: bold;
+        letter-spacing: -.6px;
+    }
+    #search a{
+        text-decoration: none;
+        color: #333;
+    }
+
+    #btn_login{
+        border: 1px solid #5f0081;
+        background-color: #5f0080;
+        color: #fff;
+        display: block;
+        width: 100%;
+        height: 52px;
+        border-radius: 3px;
+        text-align: center;
+        font-family: noto sans;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    #btn_jointo{
+        border: 1px solid #5f0081;
+        background-color: #fff;
+        color: #5f0081;
+        display: block;
+        width: 100%;
+        height: 52px;
+        border-radius: 3px;
+        text-align: center;
+        font-family: noto sans;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 10px;
+    }

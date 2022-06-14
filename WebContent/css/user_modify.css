@@ -1,0 +1,183 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/*font-family: 'Noto Sans KR', sans-serif;*/
+.container{
+	font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+/*개인 정보수정 타이틀*/
+.title{
+	margin-bottom: 20px;
+}
+.title span{
+	
+    font-weight: 500;
+    font-size: 25px;
+    color: #333;
+    line-height: 35px;
+    text-align: left;
+    letter-spacing: -1px;
+}
+
+
+/*테이블크기*/
+table{
+    border-top: 2px solid #333;
+    width: 100%;
+}
+
+th{
+    width: 159px;
+    padding: 20px 0 0 20px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+    vertical-align: top;
+    text-align: left;
+    padding-top: 30px;
+}
+
+td{
+    padding-top: 19px;
+}
+/*입력창*/
+input[type="text"],[type="password"]{
+    height: 44px;
+    width: 332px;
+    padding: 0 14px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 3px;
+    background: #fff;
+    vertical-align: top;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    
+    letter-spacing: 0;
+}
+
+
+input::placeholder {
+    color: lightgray;
+  }
+
+
+/*입력창 하단 추가설명창*/
+
+.txt{
+    font-size: 12px;
+    margin-left: 5px;
+    display: block;
+    
+}
+
+.txt_case1,.txt_case2{
+	display: none;
+}
+
+/*입력창 버튼 크기설정*/
+.btn{
+    display: inline-block;
+    width: 120px;
+    height: 44px;
+    margin-left: 5px;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/*주소창 버튼 크기설정*/
+.btn_address{
+    height: 44px;
+    width: 332px;
+    margin-left: 0;
+}
+
+.address{
+    display: none;
+    margin-top: 10px;
+}
+#address #sample4_jibunAddress{
+	display: block;
+}
+#address #sample4_detailAddress{
+	display: block;
+}
+
+
+/*생년월일 입력창 크기설정*/
+.birth_day {
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    width: 265px;
+    font-size: 14px;
+    vertical-align: top;
+    text-align: left;
+}
+.birth_day input{
+    width: 84px;
+    height: 40px;
+    border: 0;
+    text-align: center;
+}
+
+/*라디오버튼 크기설정*/
+.group_radio{
+	padding-top: 10px;
+}
+.group_radio input{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    vertical-align: -4px;
+}
+
+/*성별 및 추가입력사항 글자크기 변경*/
+.txt_gender, .txt_addInput{
+    margin-right: 15px;
+}
+
+
+/*가입버튼*/
+.btn_bottom{
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 30px;
+    border: 1px solid #5f0081;
+    background-color: #5f0080;
+    border-radius: 3px;
+    color: #fff;
+}
+#btn_out{
+	border-color: #5f0081;
+	background-color: #fff;
+	color: #5f0080;
+	margin-right: 15px;
+}
+
+#btn_modify{
+	margin-left: 15px;
+}
+
+#btn_main{
+	margin-left: 15px;
+	color: black;
+	background-color: #fff;
+}
+
+
+
+
+
+

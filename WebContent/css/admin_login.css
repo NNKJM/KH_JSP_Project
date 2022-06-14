@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bentham&family=Libre+Baskerville:ital@1&family=PT+Serif:ital@0;1&display=swap');
+/*Typography*/
+
+/*
+    font-family: 'Bentham', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'PT Serif', serif;
+*/
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+.logo_img{
+	margin-bottom: 20px;	
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn-primary{
+	background-color: #ffba47;
+	border-color: #ffba47;
+	font-family: 'PT Serif', serif;
+}
+
+h1{
+	font-family: 'Bentham', serif;
+}
+
+.form-signin input[type="submit"]{
+	margin-bottom: 20px;
+}

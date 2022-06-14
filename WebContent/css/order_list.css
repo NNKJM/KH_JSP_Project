@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+.order-list {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding: 30px;
+	width: 800px;
+}
+
+.title-hr {
+	margin-bottom: 0;
+}
+
+.order-list h1 {
+	text-align: center;
+}
+
+.order-list h4 {
+	margin-top: 70px;
+}
+
+.order-table {
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.table-img {
+	width: 100px;
+}
+
+.img-size {
+	width: 100px;
+	height: 100px;
+}
+
+.table-pname {
+	width: 200px;
+	padding-left: 20px;
+	text-align: left;
+}
+
+.order-table td {
+	border-bottom: 1px solid lightgray;
+	padding: 10px 0;
+}
+
+.cart_delivery table th {
+	width: 150px;
+}
+
+.cart_delivery table th,
+.cart_delivery table td {
+	padding: 10px 0;
+}
+
+.bill {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+#userMenu{
+	width:90%;
+}
+
+#gnb{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+.list_menu{
+	display:flex;
+	flex:1;
+	justify-content: flex-end;
+	margin: 30px;
+	list-style: none; 
+	align-items: center;
+}
+
+.list_menu li{
+	margin: 5px 5px;
+}
+
+#menu_comunity {
+	line-height: 7px;
+	
+}
+
+.logo_img{
+	width: 7%;
+	height: 7%;
+	border-radius: 10px;
+	object-fit: cover;
+}
+
+
+.list_menu span{
+	font-size: 12px;
+	color: lightgray;
+}
+
+.list_menu li a{
+	color: black;
+	text-decoration: none;
+}
+
+.link_menu{
+	display: inline;
+	text-decoration: none;
+	
+}
+
+#navbarScroll ul>li{
+	padding:50px;
+	line-height: 2px;
+	
+}
+
+#navbarScroll a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-family: 800;
+}
+
+
+
+#headerLogo{
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+
+/* 서취버튼 커스텀 */
+#Serarch_flex{
+	width:250px;
+	height: 40px;
+	border-radius: 30px;
+	border: 1px solid gray;
+	padding-left: 12px;
+}
+
+.d-flex_main{
+	position: relative;
+}
+
+.d-flex_main i{
+	position: absolute;
+	left: -40px;
+	top: 20px;
+}
+
+.d-flex_main button{
+	position: absolute;
+	border:0;
+	outline:0;
+	padding: 0;
+	margin: 0;
+	background-color: white;
+}
+/* 서취버튼 커스텀 end */
+
+
+.main_icon{
+	display:flex;
+	justify-content: space-between;
+	padding-left: 20px;
+	
+}
+
+.main_icon i{
+	padding-left:50px;
+}
+#user_menu1{
+	display: none;
+}
+
+#welcome{
+   font-family: noto sans;
+   font-weight: 400;
+   font-size:14px;
+   border: 1px solid #949296;
+   background-color: #fff;
+   color: #949296;
+   padding: 0 6px;
+   border-radius: 30px;
+   align-self: flex-start;
+
+}
+
+#user_name{
+font-size:15px;
+color: black;
+}
+
+
+/* 상품 메뉴 마우스 이동시 효과 */
+.product-select:hover{
+	
+	text-decoration: underline;
+	color: purple;
+	font-weight: bold;
+	
+}
+
+/* 이모티콘 커스텀 */
+.fa-heart {
+	color: purple;
+}
+
+.fa-heart:hover{
+	color: black;
+}
+
+.fa-cart-shopping{
+	color: purple;
+}
+
+.fa-cart-shopping:hover{
+	color: black;
+}

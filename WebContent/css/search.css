@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+.search-top{
+	display:flex;
+	justify-content: center;
+	margin: 100px 0px;
+}
+
+.search-middle{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 0px;
+}
+
+.line-hr{
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
+
+
+.search_main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 200px 0px;
+	
+}
+
+.search_Pname{
+	font-size: 24px;
+	font-weight: 700;
+	
+}
+
+.search_Price{
+	
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.search_Pdetails{
+	
+	font-size: 14px;
+	font-weight: 500;
+	color: gray;
+	line-height: 10px;
+}
+
+/* 검색 입력 및 버튼 커스텀 */
+#search-input{
+	float:left;
+	width: 607px;
+	height: 45px;
+	margin-right: 16px;
+	margin-left: 20px;
+	border: 1px solid #ccc;
+}
+
+#search-button{
+	float:left;
+	width:175px;
+	height: 45px;
+	background-color: #5f0080;
+	color: #fff;
+}
+
+
+/* 이미지 처리 */
+#card-main{
+	margin-left: 20px;
+}
+
+#card-img{
+	overflow: hidden;
+	margin: 0px auto;
+	height: 200px;
+}
+
+#card-img:hover{
+	cursor: pointer;
+	transform:scale(1.05);
+	transition:transform .35s linear;
+}

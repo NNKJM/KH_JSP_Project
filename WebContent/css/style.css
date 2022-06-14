@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+.main_content{
+	display:flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.main_content2{
+	display:flex;
+	justify-content: center;
+	margin-top: 300px;
+}
+
+
+.main_event_content{
+	display:flex;
+	justify-content: center;
+}
+
+.main-img1{
+	display:flex;
+	justify-content:center;
+	flex: 1;
+}
+
+.main_img2{
+	display:flex;
+	justify-content:flex-start;
+	flex: 1;
+	margin-left: 200px;
+	margin-right: 100px;
+}
+
+.main_img1 img{
+	width: 30%;
+	object-fit:cover;
+}
+
+.nomal_price{
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.sale_price1{
+	font-weight: bold;
+	color:orange;
+}
+
+.sale_price2{
+	font-weight: bold;
+}
+
+.event_price{
+	text-decoration: line-through;
+}
+
+.main_event{
+	margin-left: 50px;
+}
+
+.card-body{
+	padding-left: 20px;
+}
+
+
+/* 각 박스 상위 간격 조정 */
+
+.event_box{
+	display:flex;
+}
+
+.event_banner{
+	width: 50%;
+	margin-top: 200px;
+}
+
+
+.main-box1{
+	margin-top: 500px;	
+}
+
+.main-box2{
+	margin-top: 500px;
+}
+
+.main-box3{
+	margin-top: 500px;
+	margin-bottom: 200px;
+}
+
+
+/* Top버튼 */
+.top_button{
+	display: none;
+	margin:10px;
+}
+
+.top_button i{
+	color: gray;
+}
+
+/* 이미지 처리 */
+.card-main{
+	margin-left: 20px;
+}
+
+.card-img{
+	overflow: hidden;
+	margin: 0px auto;
+	height: 200px;
+}
+
+.card-img:hover{
+	cursor: pointer;
+	transform:scale(1.05);
+	transition:transform .35s linear;
+}
+
+

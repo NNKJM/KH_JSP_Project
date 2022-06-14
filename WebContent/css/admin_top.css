@@ -1,0 +1,21 @@
+@charset "UTF-8";
+#header{
+	width: 1150px;
+	margin: 30px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
+}
+.logo_img{
+	width: 100px;
+	height: 100px;
+}
+#admin_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid black;
+    width: 1150px;
+    margin: 50px auto;
+}

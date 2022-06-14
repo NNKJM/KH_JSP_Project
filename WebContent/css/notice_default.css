@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gugi&display=swap');
+
+#body {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none; 
+	display : flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 80%;
+	height: auto;
+	display: flex;
+}
+
+	#body a {
+		text-decoration-line: none;   
+		color: #606060;
+	}
+     
+	#body h1 {
+		font-size: 26px;
+		font-family: 'Do Hyeon', sans-serif;
+		margin-bottom: 20px;
+	}
+	
+#aside {
+	margin-right: 50px;
+}
+
+#aside ul .lg a:hover {
+	text-decoration: underline;
+	color: #ff8040;
+}
+
+#main {
+	width: 70%;
+	flex-grow: 1;
+	padding-left: 30px;
+	padding-right: 80px;
+}
